@@ -1,0 +1,31 @@
+.status-bar {
+  display: flex;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  background-color: var(--gray);
+  padding: 6px;
+}
+.status-bar__column {
+  width: 33.3%;
+}
+.status-bar__column:nth-child(2) {
+  text-align: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+.status-bar__column .fa-bolt {
+  margin: 0 5px;
+}
+.login-form {
+  margin: 0 var(--side-margin);
+}
+.login-form input {
+  font-size: 17.5px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokoa-clone-index</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!----------------------------------status-bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-bolt"></i>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+<!-----------------------------------index-header  -->
+    <header class=index-header>
+        <h1 class="index-header__title">
+            Welcome to KakaoTalk
+        </h1>
+        <p class="index-header__text">
+            If you have a Kakao Account,
+        </p>
+        <p class="index-header__text">
+            Log in with your email or phond number.
+        </p>
+    </header>
+<!-- -------------------------------- login-form -->
+    <form class="login-form action="#">
+        <input type="text" placeholder="Email of phone number" required autocomplete="off">
+        <input type="password" placeholder="Passward" required autocomplete="off">
+        <input type="submit" value="Log in" required>
+        <input type="submit" value="Sign up" required>
+        <a href="#">Find Kakao Account or Password</a>
+    </form>
+    <script src="https://kit.fontawesome.com/03a9c761b6.js" crossorigin="anonymous"></script>
+</body>
+</html>

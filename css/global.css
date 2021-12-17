@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;700&display=swap");
+@import "reset.css";
+@import "variable.css";
+/* ---------------------------------component */
+@import "status-bar.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+input {
+  border: none;
+  appearance: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
