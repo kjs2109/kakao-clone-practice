@@ -1,0 +1,25 @@
+@import "global.css";
+.friends-display-link {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 7px;
+  margin-bottom: 15px;
+}
+.friends-display-link .fa-info-circle,
+.friends-display-link .fa-chevron-right {
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.2);
+}
+.channel {
+  margin: 0 var(--side-margin);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: var(--border-bottom);
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.channel-column {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
+}

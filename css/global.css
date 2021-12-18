@@ -3,16 +3,22 @@
 @import "variable.css";
 /* ---------------------------------component */
 @import "status-bar.css";
+@import "navigation-bar.css";
+@import "notification.css";
+@import "screen-header.css";
+@import "user-component.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 200vh;
 }
 input {
+  text-decoration: none;
   border: none;
   appearance: none;
   outline: none;
 }
 a {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }

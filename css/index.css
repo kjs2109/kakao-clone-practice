@@ -15,9 +15,30 @@
 .login-form {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
+
 .login-form input:first-child,
 .login-form input:nth-child(2) {
   border-bottom: var(--border-bottom);
+  transition: border-color 0.1s ease-in-out;
   /* border-bottom: 1px solid var(--gray); */
+}
+.login-form::placeholder {
+  opacity: 0.7;
+}
+.login-form input:first-child:focus,
+.login-form input:nth-child(2):focus {
+  border-color: var(--yellow);
+  opacity: 0.7;
+}
+.login-form input:nth-child(4),
+.login-form input:nth-child(3) {
+  background-color: var(--yellow);
+  cursor: pointer;
+}
+.login-form-link {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 3px;
 }
