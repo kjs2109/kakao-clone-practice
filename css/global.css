@@ -7,6 +7,7 @@
 @import "notification.css";
 @import "screen-header.css";
 @import "user-component.css";
+@import "open-chat-component.css";
 
 body {
   font-family: "Open Sans", sans-serif;

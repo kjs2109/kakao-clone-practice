@@ -20,3 +20,13 @@
   right: 0;
   top: 5px;
 }
+.user-notification {
+  position: absolute;
+  top: 38px;
+  right: 6px;
+}
+.header-notification-dot {
+  position: absolute;
+  top: -8px;
+  right: -5px;
+}

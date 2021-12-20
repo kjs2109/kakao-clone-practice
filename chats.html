@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokoa-clone-chats</title>
+    <link rel="stylesheet" href="css/chats.css">
+</head>
+<body>
+<!----------------------------------status-bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-bolt"></i>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+<!-- ---------------------------------header -->
+    <header class=screen-header>
+        <h1 class="screen-header-title">Chats</h1>
+        <ul class="screen-header-icons">
+            <li class="screen-header-icon"><a href="#"><i class="fas fa-search fa-lg"></i></a></li>
+            <li class="screen-header-icon"><a href="#"><i class="far fa-comment-dots fa-lg"></i></a></li>
+            <li class="screen-header-icon"><a href="#"><i class="fas fa-music fa-lg"></i></a></li>
+            <li class="screen-header-icon"><a href="#"><i class="fas fa-cog fa-lg"></i></a></li>
+        </ul>
+    </header>        
+<!-- -------------------------------- chats user-component-->
+<div class="user-component user-component-m">
+    <div class="user-component-column">
+        <div class="user-component-avatar">
+            <img src="image/howl.jpg">
+        </div>
+        <div class="user-component-info">
+            <h4 class="user-component-name user-component-light-name">Howl</h4>
+            <div class="user-component-text">Please check My Kakao Accounr info</div>
+        </div>
+
+    </div>
+    <div class="user-component-column">
+        <span>21:22</span>
+        <div class="nav-notification user-notification">1</div>
+    </div>
+</div>
+<!-----------------------------------nav  -->
+    <nav class="nav">
+        <div>
+            <a href="friends.html"><i class="far fa-user fa-2x"></i></a>          
+        </div>
+        <div>
+            <a href="chats.html"><div class="nav-notification">1</div><i class="fas fa-comment fa-2x"></i></a>           
+        </div>
+        <div>
+            <a href="find.html"><i class="fas fa-search fa-2x"></i></a>           
+        </div>
+        <div>
+            <a href="more.html"><div class="nav-notification-dot"></div><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        </div>
+    </nav>
+    <script src="https://kit.fontawesome.com/03a9c761b6.js" crossorigin="anonymous"></script>
+</body>
+</html>

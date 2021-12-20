@@ -4,6 +4,7 @@
   margin: 0 var(--side-margin);
   padding: 5px 0;
   /* background-color: gray; */
+  position: relative;
 }
 .user-component-column {
   display: flex;
@@ -23,7 +24,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 4px 22px;
-  align-items: center;
+  align-items: flex-start;
 }
 .user-component-name {
   font-size: 21px;
@@ -47,6 +48,14 @@
   width: 60px;
   height: 60px;
   border-radius: 24px;
+}
+.user-component-m img {
+  width: 68px;
+  height: 68px;
+  border-radius: 28px;
+}
+.user-component-m .user-component-column > span {
+  margin-top: 10px;
 }
 .user-component-light-name {
   font-weight: 500;

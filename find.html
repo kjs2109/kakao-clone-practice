@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokoa-clone-find</title>
+    <link rel="stylesheet" href="css/find.css">
+</head>
+<body>
+<!----------------------------------status-bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-bolt"></i>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+<!-- ---------------------------------header -->
+    <header class=screen-header>
+        <h1 class="screen-header-title">Find</h1>
+        <ul class="screen-header-icons">
+            <li class="screen-header-icon"><a href="#"><i class="fas fa-search fa-lg"></i></a></li>
+            <li class="screen-header-icon">
+                <a href="#">
+                    <i class="fas fa-cog fa-lg"></i>
+                </a>
+                <div class="nav-notification-dot header-notification-dot"></div>
+            </li>
+        </ul>
+    </header>        
+<!-- ----------------------------------find-icons -->
+<section class="find-icons">
+    <div class="find-icon">
+        <div class=find-icon-img><i class="fas fa-qrcode fa-2x"></i></div>
+        <div class="find-icon-name">QR Code</div>
+    </div>
+    <div class="find-icon">
+        <div class=find-icon-img><i class="far fa-address-book fa-2x"></i></div>
+        <div class="find-icon-name">Add by Contacts</div>
+    </div>
+    <div class="find-icon">
+        <div class=find-icon-img><i class="far fa-id-badge fa-2x"></i></div>
+        <div class="find-icon-name">Add by ID</div>
+    </div>
+    <div class="find-icon">
+        <div class=find-icon-img><i class="far fa-envelope fa-2x"></i></div>
+        <div class="find-icon-name">Invite</div>
+    </div>
+</section>
+<!-- ------------------------------recomended-friends -->
+    <section class="recommended-friends">
+        <h6>Recommended Friends</h6>
+        <div>
+            <p>You have no recommended friends.</p>
+        </div>
+    </section>
+    <section class="openchat">
+        <div class="openchat-header">
+            <h3 class="openchat-title">Open Chat</h3>
+            <div>Go to Openchat Home ></div>
+        </div>
+        <div class="openchat-component">
+            <div class="openchat-column">
+                <h3 class="openchat-component-title">#Howl's Moving Castle</h3>
+                <div class="openchat-component-hashes">
+                    #Ghibli#Howl#Sophie
+                </div>
+                <div class="openchat-info">
+                    <img src="image/mypage-profile.jpg">
+                    <span>802 members</span>
+                    <div></div>
+                    <span>Active</span>
+                </div>
+            </div>
+            <div class="openchat-column">
+                <img  class="openchat-main-img" src="image/howl's-moving-castle.jpg">
+                <div class="openchat-like">
+                    <i class="fas fa-heart"></i>
+                    <span>326</span>
+                </div>
+            </div>
+        </div>
+        <div class="openchat-component">
+            <div class="openchat-column">
+                <h3 class="openchat-component-title">#Spirited Away</h3>
+                <div class="openchat-component-hashes">
+                    #Ghibli#Haku#Kaonashi
+                </div>
+                <div class="openchat-info">
+                    <img src="image/mypage-profile.jpg">
+                    <span>802 members</span>
+                    <div></div>
+                    <span>Active</span>
+                </div>
+            </div>
+            <div class="openchat-column">
+                <img  class="openchat-main-img" src="image/spirited-away.jpg">
+                <div class="openchat-like">
+                    <i class="fas fa-heart"></i>
+                    <span>215</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-----------------------------------nav  -->
+    <nav class="nav">
+        <div>
+            <a href="friends.html"><i class="far fa-user fa-2x"></i></a>          
+        </div>
+        <div>
+            <a href="chats.html"><div class="nav-notification">1</div><i class="far fa-comment fa-2x"></i></a>           
+        </div>
+        <div>
+            <a href="find.html"><i class="fas fa-search fa-2x"></i></a>           
+        </div>
+        <div>
+            <a href="more.html"><div class="nav-notification-dot"></div><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        </div>
+    </nav>
+    <script src="https://kit.fontawesome.com/03a9c761b6.js" crossorigin="anonymous"></script>
+</body>
+</html>
