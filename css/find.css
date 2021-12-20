@@ -3,28 +3,12 @@
 .screen-header-icon {
   position: relative;
 }
-.find-icons {
-  display: flex;
-  margin: 10px 30px 0 30px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-.find-icon {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: rgba(0, 0, 0, 0.8);
-}
-.find-icon-name {
-  text-align: center;
-  margin-top: 15px;
-}
 .recommended-friends {
   margin: 0 var(--side-margin);
   height: 230px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bolder;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .recommended-friends > h6 {
