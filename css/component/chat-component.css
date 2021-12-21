@@ -35,16 +35,23 @@
   display: flex;
   position: relative;
 }
+.my-section .chat-box {
+  justify-content: flex-end;
+}
+.my-section .chat-box-message {
+}
 .chat-box-message {
   background-color: whitesmoke;
   padding: 10px 12px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   margin-left: 5px;
   border-radius: 0 15px 15px 15px;
   color: rgba(0, 0, 0, 0.8);
+  max-width: 130px;
 }
 .my-section .chat-box-message {
+  background-color: var(--yellow);
   border-radius: 15px 0 15px 15px;
   margin-right: 5px;
 }

@@ -28,3 +28,53 @@ body {
   /* background-color: rgba(128, 128, 128, 0.534); */
   height: 100%;
 }
+.reply {
+  display: flex;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 4px 10px;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+}
+.reply-column:first-child {
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+.reply-column:last-child {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.reply-input-bar {
+  background-color: rgba(128, 128, 128, 0.1);
+  height: 30px;
+  border-radius: 18px;
+  padding: 4px 13px;
+  width: 100%;
+  margin-left: 13px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  font-size: 16px;
+}
+
+.fa-plus-square {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0 10px;
+  font-weight: lighter;
+}
+.fa-smile {
+  position: absolute;
+  right: 80px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.reply-button {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--yellow);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 44px;
+}

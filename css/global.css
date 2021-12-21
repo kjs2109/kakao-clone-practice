@@ -2,15 +2,15 @@
 @import "reset.css";
 @import "variable.css";
 /* ---------------------------------component */
-@import "status-bar.css";
-@import "navigation-bar.css";
-@import "notification.css";
-@import "screen-header.css";
-@import "user-component.css";
-@import "open-chat-component.css";
-@import "icon-component.css";
-@import "alt-screen-header.css";
-@import "chat-component.css";
+@import "component/status-bar.css";
+@import "component/navigation-bar.css";
+@import "component/notification.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/open-chat-component.css";
+@import "component/icon-component.css";
+@import "component/alt-screen-header.css";
+@import "component/chat-component.css";
 
 body {
   font-family: "Open Sans", sans-serif;
