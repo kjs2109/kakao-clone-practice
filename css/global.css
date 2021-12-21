@@ -10,6 +10,7 @@
 @import "open-chat-component.css";
 @import "icon-component.css";
 @import "alt-screen-header.css";
+@import "chat-component.css";
 
 body {
   font-family: "Open Sans", sans-serif;

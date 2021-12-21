@@ -1,6 +1,8 @@
 .alt-header {
   display: flex;
   margin: 30px var(--side-margin) 20px var(--side-margin);
+  /* box-sizing: border-box; */
+  width: 92%;
 }
 .alt-header-column {
   width: 33.3%;
@@ -13,6 +15,8 @@
   justify-content: center;
   font-size: 23px;
   font-weight: bolder;
+  position: relative;
+  right: 14px;
 }
 .alt-header-column:last-child {
   display: flex;

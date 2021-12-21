@@ -1,0 +1,30 @@
+@import "global.css";
+body {
+  background-color: #abc1d1;
+}
+.status-bar {
+  opacity: none;
+}
+.fa-bars {
+  margin-left: 15px;
+}
+.alt-header {
+  position: fixed;
+  top: 0px;
+}
+.chat-date {
+  margin-top: 120px;
+  text-align: center;
+}
+.chat-date-box {
+  color: white;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  font-size: 14.5px;
+}
+.main-chat {
+  margin: 20px var(--side-margin);
+  /* background-color: rgba(128, 128, 128, 0.534); */
+  height: 100%;
+}
