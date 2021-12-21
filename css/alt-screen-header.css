@@ -1,0 +1,20 @@
+.alt-header {
+  display: flex;
+  margin: 30px var(--side-margin) 20px var(--side-margin);
+}
+.alt-header-column {
+  width: 33.3%;
+  display: flex;
+  padding: 15px 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+.alt-header-column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: bolder;
+}
+.alt-header-column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}

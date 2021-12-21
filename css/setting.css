@@ -1,0 +1,57 @@
+@import "global.css";
+.settings {
+  border-bottom: 1.3px solid rgba(0, 0, 0, 0.11);
+}
+.settings-section {
+  margin: 20px var(--side-margin);
+  color: rgba(0, 0, 0, 0.8);
+}
+.settings-setting {
+  display: flex;
+  justify-content: space-between;
+  margin: 9px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.settings-setting:last-child {
+  border: none;
+}
+.settings-setting-column > i {
+  padding: 16px 16px 16px 0;
+}
+.settings-setting-i {
+  margin: 13.5px 13px 13.5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.8);
+  border: 3px solid rgba(0, 0, 0, 0.8);
+}
+.settings-setting-column:nth-child(2) {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.settings-setting-name {
+  position: relative;
+}
+.settings-setting-column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 200px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.5);
+}
+.setting-notification {
+  width: 20px;
+  height: 20px;
+  right: -25px;
+  font-size: 10px;
+}

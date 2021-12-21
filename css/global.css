@@ -9,6 +9,7 @@
 @import "user-component.css";
 @import "open-chat-component.css";
 @import "icon-component.css";
+@import "alt-screen-header.css";
 
 body {
   font-family: "Open Sans", sans-serif;
