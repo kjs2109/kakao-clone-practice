@@ -1,5 +1,8 @@
 @import "global.css";
 
+body {
+  height: 120vh;
+}
 .screen-header-icon {
   position: relative;
 }

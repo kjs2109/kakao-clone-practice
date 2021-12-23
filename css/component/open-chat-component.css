@@ -84,3 +84,16 @@
 .openchat-like i {
   padding-right: 5px;
 }
+.openchat-like .fa-heart:hover {
+  will-change: transform;
+  animation: heartBeat 0.8s ease-in-out infinite;
+}
+@keyframes heartBeat {
+  from {
+    color: pink;
+  }
+  to {
+    transform: scale(1.2);
+    color: tomato;
+  }
+}

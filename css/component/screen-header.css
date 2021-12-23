@@ -14,4 +14,16 @@
 }
 .screen-header-icon {
   margin-left: 17px;
+  transition: transform 1s linear;
+}
+.screen-header-icons .fa-cog:hover {
+  animation: rotateCog 1.7s linear infinite;
+}
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }

@@ -11,6 +11,20 @@
   right: -5px;
   top: -3px;
 }
+.nav-notification-animation {
+  animation: notificationanimation 1.5s ease-in-out infinite;
+}
+@keyframes notificationanimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-7px) rotateY(360deg);
+  }
+  100% {
+    transfrm: none;
+  }
+}
 .nav-notification-dot {
   width: 5px;
   height: 5px;
